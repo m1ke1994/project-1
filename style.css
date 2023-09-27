@@ -1,0 +1,9 @@
+body{
+    font-size: 26px;
+    font-family: sans-serifs;
+    margin: 0;
+    color: aqua;
+}
+li{
+    list-style: none;
+}
