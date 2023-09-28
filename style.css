@@ -1,6 +1,7 @@
 body{
     
-    font-family: sans-serifs;
+  font-family: 'Golos Text', sans-serif;
+  font-family: 'Sofia Sans Condensed', sans-serif;
     margin: 0;
    
 }
@@ -12,7 +13,7 @@ h1,h2{
     
 }
 h2{
-  margin-bottom: 50px;
+  margin-bottom: 25px;
 }
 li{
     list-style: none;
@@ -21,9 +22,8 @@ input,button {
     display: block;
     margin: 0 0 10px 0;
   }
-  input{
-    font-size: 16px;
-  }
+ 
+  
   button{
     padding: 5px;
     width: 50%;
@@ -44,7 +44,7 @@ input,button {
     font-size: 20px;
     display: block;
     border: 3px solid blue;
-    height: 140px;
+    height: auto;
     margin: 10px;
     padding: 10px;
     background-color: rgb(183, 194, 247);
@@ -57,25 +57,27 @@ input,button {
     display: flex;
     justify-content: center;
     margin: 20px;
-    border: 3px solid blue;
+    
     padding: 20px;
+    width: auto;
+    height: auto;
   }
   .form_one{
     display: flex;
-    width: 50%;
+    width: auto;
     flex-direction: column;
     margin-right:10px ;
-    height: 500px;
+    height: auto;
     align-items: center;
     border: 3px solid blue;
     background-color: rgb(227, 220, 246);
   }
   .form_two{
     display: flex;
-    width: 50%;
+    width: auto;
     flex-direction: column;
     margin-right:10px ;
-    height: 500px;
+    height: auto;
     align-items: center;
     border: 3px solid blue;
     background-color: rgb(227, 220, 246);
@@ -83,11 +85,31 @@ input,button {
   }
   form{
     border: 3px solid green;
-    height: 60%;
+    height: auto;
     margin-right:10px;
     margin: 10px;
     padding: 10px;
     background-color: rgb(134, 232, 134);
     border-radius: 15px;
+    width: auto;
+  }
+  @media  (min-width: 800px) {
+    .general_form{
+      border: 1px solid blue;
+    }
+  }
+  @media  (max-width: 600px) {
+    .general_form{
+      display:flex;
+      flex-direction: column;
+      
+    }   
+  }
+  @media  (max-width: 330px) {
+    form{
+      width: 90%;  
+    }
+      
     
   }
+ 
