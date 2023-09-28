@@ -10,11 +10,74 @@
   <body>
     <h1>Hello Git</h1>
     <h2>My Links for Learning</h2>
-    <ul>
-    <li><a href="https://productstar.ru">Productstar курсы</a></li>
-    <li><a href="https://shultais.education.ru">shultais.education курсы</a></li>
-    <li><a href="https://lms.synergy.ru">Синергия институт</a></li>
-    <li><a href="https://beonmax.com/login/">beonmax курсы</a></li>
-</ul> 
+  <p>Homework: Сверстай форму входа на сайт — логин и пароль.</p> 
+<form method="post" action="/login">
+  <label>
+    <span>Введите логин:</span>
+    <input
+      type="email"
+      name="login"
+      placeholder="ваша почта"
+      minlength="5"
+    />
+  </label>
+
+  <label>
+    <span>Введите пароль:</span>
+    <input type="password" name="password" placeholder="Введите пароль" />
+  </label>
+
+  <button type="submit">
+    Войти
+  </button>
+</form>
+<p>Homework: Сверстай форму регистрации на сайт — логин, почта, пароль, повтор пароля, выбор языка.</p> 
+<form method="post" action="/login">
+  <label>
+    <span>Введите логин:</span>
+    <input
+      type="text"
+      name="login"
+      placeholder="Ваш логин"
+      minlength="5"
+      maxlength="8"
+    />
+  </label>
+  <label>
+    <span>Введите почту:</span>
+    <input
+      type="email"
+      name="login"
+      placeholder="ваша почта"
+      minlength="5"
+    />
+  </label>
+
+  <label>
+    <span>Введите пароль:</span>
+    <input type="password" name="password" placeholder="Введите пароль" />
+  </label>
+
+  <label>
+    <span>Повторите пароль:</span>
+    <input type="password" name="password" placeholder="Повторите пароль" />
+  </label>
+  <label>
+    <span>Выбор языка:</span>
+    <select name="languages" >
+      <option value="">----</option>
+      <option value="a">Russian</option>
+      <option value="b">English</option>
+      <option value="c">Пerman </option>
+      <option value="d">French</option>
+      <option value="f">Spanish </option>
+      <option value="g">Norwegian</option>
+    </select>
+  </label>
+
+  <button type="submit">
+    Войти
+  </button>
+</form>
   </body>
 </html>

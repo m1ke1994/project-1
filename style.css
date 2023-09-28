@@ -1,9 +1,33 @@
 body{
-    font-size: 26px;
+    
     font-family: sans-serifs;
     margin: 0;
-    color: aqua;
+   
+}
+h1,h2{
+    color: burlywood;
+    font-size: 26px;
 }
 li{
     list-style: none;
 }
+input,button {
+    display: block;
+    margin: 0 0 10px 0;
+  }
+  span{
+    color: black;
+  }
+  button:hover{
+    background-color: darkgrey;
+    transition: all 1s ease-out;
+  }
+  p{
+    font-size: 20px;
+    border-bottom: 1px solid black;
+    display: block;
+    width: 20%;;
+  }
+  button{
+    margin-top: 20px;;
+  }
