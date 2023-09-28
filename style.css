@@ -5,8 +5,14 @@ body{
    
 }
 h1,h2{
-    color: burlywood;
+    display: flex;
+    justify-content: center;
+    color: rgb(23, 18, 12);
     font-size: 26px;
+    
+}
+h2{
+  margin-bottom: 50px;
 }
 li{
     list-style: none;
@@ -15,19 +21,73 @@ input,button {
     display: block;
     margin: 0 0 10px 0;
   }
+  input{
+    font-size: 16px;
+  }
+  button{
+    padding: 5px;
+    width: 50%;
+    margin: auto;
+    font-size: 14px;
+    font-weight: bold;
+  }
   span{
     color: black;
+    font-weight: bold;
+    
   }
   button:hover{
-    background-color: darkgrey;
+    background-color: rgb(188, 164, 236);
     transition: all 1s ease-out;
   }
   p{
     font-size: 20px;
-    border-bottom: 1px solid black;
     display: block;
-    width: 25%;;
+    border: 3px solid blue;
+    height: 140px;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(183, 194, 247);
+    
   }
   button{
     margin-top: 20px;;
+  }
+  .general_form{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    border: 3px solid blue;
+    padding: 20px;
+  }
+  .form_one{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    margin-right:10px ;
+    height: 500px;
+    align-items: center;
+    border: 3px solid blue;
+    background-color: rgb(227, 220, 246);
+  }
+  .form_two{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    margin-right:10px ;
+    height: 500px;
+    align-items: center;
+    border: 3px solid blue;
+    background-color: rgb(227, 220, 246);
+   
+  }
+  form{
+    border: 3px solid green;
+    height: 60%;
+    margin-right:10px;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(134, 232, 134);
+    border-radius: 15px;
+    
   }
