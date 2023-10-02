@@ -15,82 +15,90 @@
     <h2>My Links for Learning</h2>
     <div class="general_form">
       <div class="form_one">
-  <p>Homework: Сверстай форму входа на сайт — логин и пароль.
-    Добавь валидацию и доступность для форм.
-  </p> 
-<form method="post" action="/login">
-  <label>
-    <span>Введите логин:</span>
-    <input
-      type="email"
-      name="login"
-      placeholder="Ваша почта"
-      minlength="5"
-    />
-  </label>
-
-  <label>
-    <span>Введите пароль:</span>
-    <input type="password" name="password" placeholder="Введите пароль" />
-  </label>
-
-  <button type="submit">
-    Войти
-  </button>
+  <div class="text"><p>Homework: Сверстай форму входа на сайт — логин и пароль.
+    Добавь валидацию и доступность для форм.</p></div>
+   <div class="forma"><form method="post" action="/login">
+    <label>
+      <span>Введите логин:</span>
+      <input
+        type="email"
+        name="login"
+        placeholder="Ваша почта"
+        minlength="5"
+      />
+    </label>
+  
+    <label>
+      <span>Введите пароль:</span>
+      <input type="password" name="password" placeholder="Введите пароль" />
+    </label>
+  
+    <button type="submit">
+      Войти
+    </button>
+  
+  </form>
+</div>
 </div>
 
+
 <div class="form_two">
-</form>
-<p>Homework: Сверстай форму регистрации на сайт — логин, почта, пароль, повтор пароля, выбор языка.
+
+<div class="text"><p>Homework: Сверстай форму регистрации на сайт — логин, почта, пароль, повтор пароля, выбор языка.
   Добавь валидацию и доступность для форм.
-</p> 
-<form method="post" action="/login">
-  <label>
-    <span>Введите логин:</span>
-    <input
-      type="text"
-      name="login"
-      placeholder="Ваш логин"
-      minlength="5"
-      maxlength="8"
-    />
-  </label>
-  <label>
-    <span>Введите почту:</span>
-    <input
-      type="email"
-      name="login"
-      placeholder="Ваша почта"
-      minlength="5"
-    />
-  </label>
+</p> </div>
 
-  <label>
-    <span>Введите пароль:</span>
-    <input type="password" name="password" placeholder="Введите пароль" />
-  </label>
 
-  <label>
-    <span>Повторите пароль:</span>
-    <input type="password" name="password" placeholder="Повторите пароль" />
-  </label>
-  <label>
-    <span>Выбор языка:</span>
-    <select name="languages" >
-      <option value="">----</option>
-      <option value="a">Russian</option>
-      <option value="b">English</option>
-      <option value="c">Пerman </option>
-      <option value="d">French</option>
-      <option value="f">Spanish </option>
-      <option value="g">Norwegian</option>
-    </select>
-  </label>
+<div class="forma">
+  <form method="post" action="/login">
+    <label>
+      <span>Введите логин:</span>
+      <input
+        type="text"
+        name="login"
+        placeholder="Ваш логин"
+        minlength="5"
+        maxlength="8"
+      />
+    </label>
+    <label>
+      <span>Введите почту:</span>
+      <input
+        type="email"
+        name="login"
+        placeholder="Ваша почта"
+        minlength="5"
+      />
+    </label>
+  
+    <label>
+      <span>Введите пароль:</span>
+      <input type="password" name="password" placeholder="Введите пароль" />
+    </label>
+  
+    <label>
+      <span>Повторите пароль:</span>
+      <input type="password" name="password" placeholder="Повторите пароль" />
+    </label>
+    <label>
+      <span>Выбор языка:</span>
+      <select name="languages" >
+        <option value="">----</option>
+        <option value="a">Russian</option>
+        <option value="b">English</option>
+        <option value="c">Пerman </option>
+        <option value="d">French</option>
+        <option value="f">Spanish </option>
+        <option value="g">Norwegian</option>
+      </select>
+    </label>
+  
+    <button type="submit">
+      Войти
+    </button>
+  </form>
+</div>
 
-  <button type="submit">
-    Войти
-  </button>
-</form>
 </div>
 </div>
   </body>
