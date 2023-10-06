@@ -41,13 +41,13 @@ input,button {
     transition: all 1s ease-out;
   }
   p{
-    font-size: 20px;
+    font-size: 24px;
     display: block;
-    border: 3px solid blue;
+    
     height: auto;
     margin: 10px;
     padding: 10px;
-    background-color: rgb(183, 194, 247);
+    
     
   }
   button{
@@ -124,6 +124,28 @@ input,button {
           border: 1px solid blue;
           
         }
+        }
+        .text p {
+          color: #0a0707;
+          font-family: monospace;
+          overflow: hidden; /* Ensures the content is not revealed until the animation */
+          border-right: .15em solid orange; /* The typwriter cursor */
+          white-space: nowrap; /* Keeps the content on a single line */
+          margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+          letter-spacing: .15em; /* Adjust as needed */
+          animation: 
+            typing 8s steps(60, end),
+            blink-caret .4s step-end infinite;
+        }
+        @keyframes typing {
+          from { width: 0 }
+          to { width: 100% }
+        }
+        
+        /* The typewriter cursor effect */
+        @keyframes blink-caret {
+          from, to { border-color: transparent }
+          50% { border-color: orange }
         }
   
  
